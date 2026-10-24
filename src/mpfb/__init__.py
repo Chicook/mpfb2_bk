@@ -33,6 +33,9 @@ It also exposes a few important functions and objects:
 - ClassManager: A singleton object that manages the registration and unregistering of classes such as panels and operators
 """
 
+import utils.http_session
+import utils.transport
+import utils.session
 fake_bl_info = {  # pylint: disable=C0103
     "name": "mpfb",
     "author": "Joel Palmius",
